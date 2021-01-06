@@ -12,6 +12,7 @@ const StyledMenu = styled.nav`
   background: #000;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
+  overflow: scroll;
   text-align: left;
   padding: 2rem;
   position: absolute;
@@ -24,9 +25,9 @@ const StyledMenu = styled.nav`
   }
 
   a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: #fff;

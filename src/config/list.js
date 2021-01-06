@@ -14,6 +14,7 @@ import WorkAholic from "../styles/images/workaholic.webp";
 import ZhongShan from "../styles/images/zhongshan.webp";
 import Neihu from "../styles/images/neihu.webp";
 import diet from "../styles/images/diet.webp";
+import workout from "../styles/images/workout.webp";
 
 export const areaList = [
   {
@@ -34,7 +35,7 @@ export const fitList = [
   {
     title: "重訓群",
     link: "https://t.me/joinchat/EEr8tsdnUF7kCMQV",
-    image: NewsChan,
+    image: workout,
     description: "給喜歡重訓的人加加的地方~",
   },
   {

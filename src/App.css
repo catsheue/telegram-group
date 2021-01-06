@@ -141,4 +141,7 @@ a {
   .App-hamburger {
     display: block;
   }
+  .App-title {
+    font-size: 1.4rem;
+  }
 }

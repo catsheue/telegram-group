@@ -27,4 +27,8 @@ export const pathList = [
     path: "/area",
     name: "Area",
   },
+  {
+    path: "/fit",
+    name: "Fitness",
+  },
 ];
