@@ -57,9 +57,13 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  /*font-size: calc(10px + 2vmin);*/
+  justify-content: center;
+
   color: white;
+}
+
+.App-hamburger {
+  display: none;
 }
 .App-content {
   /*padding: 2rem 0 0 4rem;*/
@@ -103,11 +107,32 @@ a {
   font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+  .App-nav {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .App-content {
+    width: 100%;
+    overflow: auto;
+  }
+  .App-header {
+    font-size: calc(10px + 2vmin);
+  }
+  .list-title {
+    font-size: calc(10px + 2vmin);
+  }
+  .list-image-wrapper {
+    width: 22%;
+    height: 22%;
+  }
+  .list-content {
+    width: 70%;
+  }
+  .list-description {
+    font-size: 1.1rem;
+  }
+  .App-hamburger {
+    display: block;
   }
 }
