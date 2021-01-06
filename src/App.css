@@ -1,32 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App-link {
+  color: aquamarine;
+}
 .App {
   text-align: center;
+  color: #fff;
+  font-family: "Comfortaa", "microsoft yahei";
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.App-nav {
+  width: 20vw;
+  text-align: left;
+}
+.App-nav ul li a {
+  padding: 1rem 0 1rem 2rem;
+  display: block;
+  font-size: 1.2rem;
+  transition: all 2s;
+}
+.App-nav ul li a:hover {
+  background: black;
+}
+.App-hello {
+  line-height: 1.5;
+  padding: 3rem;
+  font-size: 1.3rem;
+}
+.App-body {
+  display: flex;
+  background: #272727;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
-    padding: 1rem;
+  height: 10vh;
+  padding: 0 2rem 0 2rem;
+  line-height: 0;
+  font-size: 1.6rem;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
+  /*font-size: calc(10px + 2vmin);*/
   color: white;
 }
-
+.App-content {
+  /*padding: 2rem 0 0 4rem;*/
+  height: 90vh;
+  width: 80vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 .App-link {
   color: #61dafb;
+}
+.list-item:hover {
+  background: black;
+  transition: all 1s;
+}
+.list-item {
+  line-height: 1;
+  display: flex;
+
+  padding: 2rem;
+}
+.list-content {
+  text-align: left;
+  padding-left: 1rem;
+  width: 70%;
+  line-height: 1.5;
+}
+.list-title {
+  padding-bottom: 1rem;
+}
+.list-image {
+  max-width: 100%;
+  transform: scale(1.1);
+}
+.list-image-wrapper {
+  width: 10%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.list-description {
+  font-size: 1.3rem;
 }
 
 @keyframes App-logo-spin {
