@@ -23,4 +23,8 @@ export const pathList = [
     path: "/people",
     name: "People",
   },
+  {
+    path: "/area",
+    name: "Area",
+  },
 ];

@@ -7,8 +7,10 @@ import {
   NavLink,
 } from "react-router-dom";
 import {
+  areaList,
   channelList,
   chatList,
+  fitList,
   interestList,
   peopleList,
   techList,
@@ -29,8 +31,7 @@ function App() {
           <Menu open={open} setOpen={setOpen} />
         </div>
         <header className="App-header">
-          <div>Telegram Groups</div>
-
+          <h1 className="App-title">Telegram Groups</h1>
           <a
             className="github"
             target="_blank"
@@ -70,6 +71,12 @@ function App() {
               </Route>
               <Route path="/people">
                 <ListSection list={peopleList} />
+              </Route>
+              <Route path="/area">
+                <ListSection list={areaList} />
+              </Route>
+              <Route path="/fit">
+                <ListSection list={fitList} />
               </Route>
               <Route exact path="/">
                 <div className="App-hello">

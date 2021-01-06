@@ -11,7 +11,44 @@ import NightCat from "../styles/images/nightcat.webp";
 import NewsChan from "../styles/images/newschan.webp";
 import Music from "../styles/images/music.webp";
 import WorkAholic from "../styles/images/workaholic.webp";
+import ZhongShan from "../styles/images/zhongshan.webp";
+import Neihu from "../styles/images/neihu.webp";
+import diet from "../styles/images/diet.webp";
 
+export const areaList = [
+  {
+    title: "中山區",
+    link: "https://t.me/joinchat/Rwq0STokArnnhVXy",
+    image: ZhongShan,
+    description: "在中山區上班或住中山區的歡迎加",
+  },
+  {
+    title: "內湖群",
+    link: "https://t.me/joinchat/FRVUFg8cYvHY_e4HZNH4Vw",
+    image: Neihu,
+    description: "在內湖區上班或住內湖區的歡迎加",
+  },
+];
+
+export const fitList = [
+  {
+    title: "重訓群",
+    link: "https://t.me/joinchat/EEr8tsdnUF7kCMQV",
+    image: NewsChan,
+    description: "給喜歡重訓的人加加的地方~",
+  },
+  {
+    title: "減肥群",
+    link: "https://t.me/joinchat/EKDZv7OFOBGHBHT-",
+    image: diet,
+    description:
+      "想減肥的來加加~\n" +
+      "歡迎分享減肥知識，勿打奇怪廣告\n" +
+      "可以分享自己每天吃了些什麼 ~\n" +
+      "也可以聊聊天，大家當當朋友\n" +
+      "減肥成功可以一起揪團吃大餐～",
+  },
+];
 export const channelList = [
   {
     title: "EBC東森新聞",
